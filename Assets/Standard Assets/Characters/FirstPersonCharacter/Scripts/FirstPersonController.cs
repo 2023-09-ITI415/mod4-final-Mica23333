@@ -158,7 +158,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
     void SetCountText()
         {
             countText.text = "Light: " + count.ToString();
-            if (count >= 12)
+            if (count >= 10)
             {
                 winTextObject.SetActive(true);
             }
